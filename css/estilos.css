@@ -1,0 +1,102 @@
+
+.letraLogin{
+    padding-top: 40px;
+    padding-left: 100px;
+    font-family: fantasy;
+    font-size: 1.5cm
+}
+.imgLogoLogin{
+    padding-left: 50px;
+}
+.iconoAjustes{
+    padding-left: 100px;
+    width: 18   0px;
+    height: 100px;
+}
+.imglogin{
+    padding-left: 600px;
+    
+}
+.iconoUsuario{
+    padding-left: 0px;
+}
+.parrafo{
+    padding-bottom: 20px;
+    padding-top: 100px;
+
+    font-size: 0.6cm
+    
+}
+.imgInicio{
+    width: 1100px;
+    padding-left: 600px;
+    padding-bottom: 100px;
+}
+.fondopiepag{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(59, 59, 59);
+}
+.colorletra{
+    color: rgb(189, 189, 189);
+}
+.fuente{
+    font-family:fantasy
+}
+.iconoAdmin{
+    padding-right: 100px;
+}
+.color1{
+    background-color: rgb(9, 156, 214);
+}
+.color2{
+    background-color: rgb(172, 135, 88);
+}
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+  }
+  .dropdown:hover .dropdown-content {
+    display:block
+  }
+  .dropdown-content a {
+    display: block;
+    background-color: rgb(216, 190, 155);
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #4bb2c2;
+  }
+.fondoTablaU1{
+    background-color: #4bb2c2;
+}
+.fondoTablaU2{
+    background-color: rgb(216, 190, 155);
+}
+.letraFicha{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.botonFicha{
+    padding-left: 1150px;
+}
+.animacion {
+    animation-duration: 1.5s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-bottom: 8%;
+      width: 7%
+    }
+  
+    to {
+      width: 6.7.5%;
+    }
+  }

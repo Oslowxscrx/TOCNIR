@@ -1,0 +1,30 @@
+.fondoLogin{
+    background-color: rgba(12, 87, 71, 0.603);
+}
+.logoLogin{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.letraLogin{
+    color: rgb(0, 0, 0);
+    padding-top: 80px;
+    font-size: 1.8cm;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.iconoAjustesLogin{
+    width: 150px;
+    padding-top: 90px;
+}
+.letra2{
+    padding-right: 260px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.registro{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(12, 87, 71, 0);
+}
+.login{
+    padding-top: 50px;
+}

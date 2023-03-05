@@ -40,7 +40,9 @@
                 <form class="d-flex">
                     <<div><img class="iconoAdmin" src=".././img/iconoUsuario.png" alt="" width="155px"> 
                         <br> <div class="dropdown">
-                          <button type="button" class="btn btn-dark posicionAdmin">Usuario</button>
+                          <button type="button" class="btn btn-dark posicionAdmin">usuario <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-square-fill" viewBox="0 0 16 16">
+                            <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5a.5.5 0 0 1 1 0z"/>
+                          </svg></button>
                           <div class="dropdown-content">
                           <a href=".././app/cambioDecontraseniaU.html">Cambiar contraseña</a>
                           <a href=".././app/login.html">Cerrar Sesión</a>
@@ -48,8 +50,6 @@
                         </div>
                 </form>
                 <br>
-
-
             </div>
         </div>
     </nav>
@@ -59,7 +59,9 @@
     <div class="container">
         <br>
         <hr>
-        <h1 class="letraFicha">FICHA TÉCNICA</h1>
+        <div class="shadow p-3 mb-5 bg-body rounded">
+            <h1 class="letraFicha">FICHA TÉCNICA</h1>
+        </div>
         <br>
         <table class="table table-bordered">
             <thead class="fondoTablaU1">
@@ -68,7 +70,7 @@
                     <th scope="col">Apellido</th>
                     <th scope="col">Fecha de nacimiento</th>
                     <th scope="col">Cédula</th>
-                    <th scope="col">Número de telf.</th>
+                    <th scope="col">Número de teléf.</th>
                     <th scope="col">Insumos</th>
                     <th>Editar</th>
                 </tr>
@@ -119,7 +121,7 @@
                                 </div>
                                 <div class="mb-3">
 
-                                    <input type="number" name="" id="" class="form-control" placeholder="Número de telf."
+                                    <input type="number" name="" id="" class="form-control" placeholder="Número de teléf."
                                         aria-describedby="helpId">
                                 </div>
                                 <div class="mb-3">
@@ -130,15 +132,11 @@
                             <div class="modal-footer">
                               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
                               <input type="submit"  data-bs-toggle="modal" value="Aceptar Cambios" class="btn btn-primary" id="cambio" onclick="aceptarCambios() ">
-                              
-
                             </div>
                           </div>
                         </div>
-                      </div></td> 
-                      
-                      
-                    
+                      </div>
+                    </td> 
                 </tr>
             </tbody>
         </table>
